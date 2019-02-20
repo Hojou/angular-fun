@@ -50,4 +50,11 @@ const streamOfData$ = urlsToQuery$.pipe(
     flatMap(url => requestDataFrom(url)
 ));
 ```
+Noteworthy: switchMap
+
+
+# Links
+https://angular.io/
+
+https://rxmarbles.com/
 
