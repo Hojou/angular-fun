@@ -47,7 +47,7 @@ myInput.valueChanges.subscribe...
 
 ```
 constructor(service1: ServiceOne, private service2: ServiceTwo, public service3: ServiceThree) {
-    // Access too all three services
+    // Access to all three services
 }
 
 someFunction() {
