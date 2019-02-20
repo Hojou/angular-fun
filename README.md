@@ -24,6 +24,19 @@ Event binding:
 <div *ngIf="showMe">Show this if showMe is true</div>
 ```
 
+## Reactive forms
+Template:
+```
+<input [formControl]="myInput">
+```
+Component:
+```
+public myInput =  new FormControl('');
+
+myInput.valueChanges.subscribe...
+
+
+
 # Services, providers and DI
 
 ```
@@ -55,7 +68,7 @@ const streamOfData$ = urlsToQuery$.pipe(
     flatMap(url => requestDataFrom(url)
 ));
 ```
-Noteworthy: switchMap
+Noteworthy: filter, map, merge, debounceTime, tap, switchMap
 
 
 # Links
