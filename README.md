@@ -40,7 +40,7 @@ Component:
 public myInput =  new FormControl('');
 
 myInput.valueChanges.subscribe...
-
+```
 
 
 # Services, providers and DI
