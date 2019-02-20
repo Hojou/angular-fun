@@ -24,6 +24,12 @@ Event binding:
 <div *ngIf="showMe">Show this if showMe is true</div>
 ```
 
+## Input
+```
+@Input()
+myParameter: SomeType;
+```
+
 ## Reactive forms
 Template:
 ```
