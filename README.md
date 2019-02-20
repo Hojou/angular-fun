@@ -13,6 +13,11 @@ Interpolation:
 <div>{{ myVariable }}</div>
 ```
 
+Event binding:
+```
+<input (click)="doStuff()">
+```
+
 ## Templates
 ```
 <div *ngFor="let item of itemCollection">{{ item.name }}</div>
