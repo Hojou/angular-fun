@@ -93,3 +93,6 @@ https://angular.io/
 
 https://rxmarbles.com/
 
+https://angular.io/guide/cheatsheet
+
+
