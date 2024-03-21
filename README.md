@@ -20,7 +20,7 @@ Event binding:
 
 ## Templates
 ```
-@for (iterm of itemCollection) {
+@for (item of itemCollection) {
 <div>{{ item.name }}</div>
 }
 
