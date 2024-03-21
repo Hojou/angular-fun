@@ -20,6 +20,17 @@ Event binding:
 
 ## Templates
 ```
+@for (iterm of itemCollection) {
+<div>{{ item.name }}</div>
+}
+
+@if (showMe) {
+<div>Show this if showMe is true</div>
+}
+```
+
+## Old templates syntax
+```
 <div *ngFor="let item of itemCollection">{{ item.name }}</div>
 <div *ngIf="showMe">Show this if showMe is true</div>
 ```
